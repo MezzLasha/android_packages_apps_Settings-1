@@ -33,11 +33,10 @@
             app:expandedTitleMarginStart="18dp"
             app:expandedTitleTextAppearance="@style/ToolbarText.Expanded"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:maxLines="2"
             app:statusBarScrim="?android:attr/colorPrimary"
             app:toolbarId="@+id/action_bar">
 
-            <Toolbar
+            <android.widget.Toolbar
                 android:id="@+id/action_bar"
                 style="?android:attr/actionBarStyle"
                 android:layout_width="match_parent"
